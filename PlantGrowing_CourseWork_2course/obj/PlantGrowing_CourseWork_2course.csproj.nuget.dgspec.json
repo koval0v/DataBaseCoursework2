@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UserPc\\Desktop\\2course\\2sem\\Coursework\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course.csproj": {}
+    "C:\\Users\\UserPc\\Source\\Repos\\DataBaseCoursework2-new\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UserPc\\Desktop\\2course\\2sem\\Coursework\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course.csproj": {
+    "C:\\Users\\UserPc\\Source\\Repos\\DataBaseCoursework2-new\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UserPc\\Desktop\\2course\\2sem\\Coursework\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course.csproj",
+        "projectUniqueName": "C:\\Users\\UserPc\\Source\\Repos\\DataBaseCoursework2-new\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course.csproj",
         "projectName": "PlantGrowing_CourseWork_2course",
-        "projectPath": "C:\\Users\\UserPc\\Desktop\\2course\\2sem\\Coursework\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course.csproj",
+        "projectPath": "C:\\Users\\UserPc\\Source\\Repos\\DataBaseCoursework2-new\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course.csproj",
         "packagesPath": "C:\\Users\\UserPc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UserPc\\Desktop\\2course\\2sem\\Coursework\\PlantGrowing_CourseWork_2course\\PlantGrowing_CourseWork_2course\\obj\\",
+        "outputPath": "C:\\Users\\UserPc\\Source\\Repos\\DataBaseCoursework2-new\\PlantGrowing_CourseWork_2course\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
