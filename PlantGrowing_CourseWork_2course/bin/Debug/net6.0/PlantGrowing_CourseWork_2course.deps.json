@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PlantGrowing_CourseWork_2course/1.0.0": {
+        "runtime": {
+          "PlantGrowing_CourseWork_2course.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlantGrowing_CourseWork_2course/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
