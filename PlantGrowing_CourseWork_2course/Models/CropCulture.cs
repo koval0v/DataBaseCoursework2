@@ -8,6 +8,8 @@
 
         public decimal Income { get; set; }
 
+        public int IncomeYear { get; set; }
+
         public ICollection<Costs>? Costs { get; set; }
     }
 }

@@ -54,7 +54,7 @@ namespace PlantGrowing_CourseWork_2course.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Income")] CropCulture cropCulture)
+        public async Task<IActionResult> Create([Bind("Id,Name,Income,IncomeYear")] CropCulture cropCulture)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace PlantGrowing_CourseWork_2course.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Income")] CropCulture cropCulture)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Income,IncomeYear")] CropCulture cropCulture)
         {
             if (id != cropCulture.Id)
             {

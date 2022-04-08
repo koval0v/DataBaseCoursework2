@@ -12,16 +12,16 @@
 
             var cropCultures = new CropCulture[]
             {
-                new CropCulture{Name = "Цукровий буряк", Income = 760500 },
-                new CropCulture{Name = "Пшениця", Income = 920927 },
-                new CropCulture{Name = "Яра", Income = 859142 },
-                new CropCulture{Name = "Пшениця озима", Income = 948413 },
-                new CropCulture{Name = "Ріпак", Income = 1009261 },
-                new CropCulture{Name = "Кукурудза", Income = 349211 },
-                new CropCulture{Name = "Сіно", Income = 365951 },
-                new CropCulture{Name = "Чорний пар", Income = 870284 },
-                new CropCulture{Name = "Жито", Income = 496622 },
-                new CropCulture{Name = "Просо", Income = 365967 }
+                new CropCulture{Name = "Цукровий буряк", Income = 760500, IncomeYear = 2021 },
+                new CropCulture{Name = "Пшениця", Income = 920927, IncomeYear = 2021 },
+                new CropCulture{Name = "Яра", Income = 859142, IncomeYear = 2020 },
+                new CropCulture{Name = "Пшениця озима", Income = 948413, IncomeYear = 2019 },
+                new CropCulture{Name = "Ріпак", Income = 100926, IncomeYear = 2018 },
+                new CropCulture{Name = "Кукурудза", Income = 349211, IncomeYear = 2018 },
+                new CropCulture{Name = "Сіно", Income = 365951, IncomeYear = 2019 },
+                new CropCulture{Name = "Чорний пар", Income = 870284, IncomeYear = 2020 },
+                new CropCulture{Name = "Жито", Income = 496622, IncomeYear = 2019 },
+                new CropCulture{Name = "Просо", Income = 365967, IncomeYear = 2018 }
             };
             foreach (CropCulture p in cropCultures)
             {
